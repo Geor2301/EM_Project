@@ -1,0 +1,97 @@
+body{
+background-color: rgb(114, 120, 117);
+font-family:'Courier New', Courier, monospace
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    
+}
+.navbar{
+    background-color: white;
+    height:100px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.navbar-title{
+    margin-left:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    height:70px;
+    align-items: center;
+    margin-top:30px;
+}
+.navbar-logo{
+    margin-top:15px;
+    margin-left:10px;
+    border-radius: 32.5px;
+}
+.body-main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height:100vh;    
+}
+.employee-list-container{
+    padding:5px;
+    width:70%;
+    height:100vh;
+    /* background-color: rgb(205, 245, 205); */
+}
+.employee-list-title{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    background-color: white;
+    height:30px;
+    border-radius: 5px;
+}
+.employee-list-title-item{
+    width:20%;
+    padding-top:5px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.employee-input{
+    margin-top:30px;
+    width:30%;    
+}
+.employee-input-form{
+    padding:5px;
+    height:40vh;
+    width:95%;
+    background-color: white;
+    display:flex;
+    flex-direction:column;  
+    justify-content:space-around;
+    align-items: center;  
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.employee-input-form-title{
+    font-size:20px;
+}
+.employee-input-field{
+    width: 95%;
+    height:30px;
+}
+.active{
+    color:green
+}
+.inactive{
+    color:red
+}
+.employee-input-submit-btn{
+    height:30px;
+    width:60%;
+    border-radius:5px;
+    background-color:rgb(233, 205, 154)
+}
+.employee-input-submit-btn:hover{
+    background-color:rgb(231, 185, 101)
+}
